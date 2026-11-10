@@ -1,0 +1,301 @@
+﻿Respondent_ID,Age,Gender,Income_Band,Category_Purchase_Frequency,Brand_Awareness,Q1,Q2,Q3,V1,V2,V3,BA1,BA2,BA3,BT1,BT2,BT3,PI1,PI2,PI3,Quality_Mean,Value_Mean,Brand_Attitude_Mean,Brand_Trust_Mean,Purchase_Intention_Mean
+R001,38,Male,"£40k–£59,999",Never,"Aware, never purchased",4,4,5,3,4,3,5,6,5,4,4,5,2,4,4,4.33,3.33,5.33,4.33,3.33
+R002,34,Male,£80k+,Less than monthly,Purchased previously,2,2,2,1,1,1,4,5,3,4,4,3,2,2,1,2.00,1.00,4.00,3.67,1.67
+R003,45,Female,"£40k–£59,999",Never,Purchased previously,2,4,5,3,3,2,5,5,4,5,5,6,5,4,4,3.67,2.67,4.67,5.33,4.33
+R004,42,Male,"£20k–£39,999",Monthly,Had not heard of it,4,4,4,5,4,6,5,4,5,3,4,4,5,5,5,4.00,5.00,4.67,3.67,5.00
+R005,18,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,5,3,3,2,2,4,4,5,5,5,4,4,4,4,5,3.67,2.67,4.67,4.33,4.33
+R006,42,Female,£80k+,2–3 times a month,Had not heard of it,4,3,5,4,3,3,5,5,4,5,5,4,4,4,3,4.00,3.33,4.67,4.67,3.67
+R007,23,Male,"£40k–£59,999",Weekly or more,Purchased previously,3,2,3,4,2,2,5,5,3,5,4,5,3,4,3,2.67,2.67,4.33,4.67,3.33
+R008,18,Non-binary,"£60k–£79,999",Monthly,Purchased previously,2,4,4,4,6,4,6,6,7,5,7,4,4,4,4,3.33,4.67,6.33,5.33,4.00
+R009,33,Male,"£20k–£39,999",2–3 times a month,Purchased previously,3,4,4,3,4,5,5,4,4,4,5,5,5,6,6,3.67,4.00,4.33,4.67,5.67
+R010,40,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",4,2,4,3,3,4,3,2,3,6,4,5,4,4,4,3.33,3.33,2.67,5.00,4.00
+R011,18,Male,"£40k–£59,999",Less than monthly,Purchased previously,5,5,5,4,6,4,4,4,3,5,5,4,4,5,5,5.00,4.67,3.67,4.67,4.67
+R012,43,Prefer not to say,"£40k–£59,999",Less than monthly,"Aware, never purchased",3,6,3,4,4,4,5,5,5,5,5,5,3,4,4,4.00,4.00,5.00,5.00,3.67
+R013,44,Male,Prefer not to say,Monthly,Purchased previously,5,3,4,4,5,5,4,5,4,5,5,5,5,5,4,4.00,4.67,4.33,5.00,4.67
+R014,36,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,2,3,3,3,3,2,3,3,3,3,2,3,2,1,3.00,3.00,2.67,2.67,2.00
+R015,25,Female,"£20k–£39,999",Monthly,Had not heard of it,4,4,5,5,6,6,5,4,3,4,4,5,2,3,1,4.33,5.67,4.00,4.33,2.00
+R016,23,Male,"£20k–£39,999",Less than monthly,Had not heard of it,2,1,2,5,3,3,3,4,4,4,4,4,2,3,1,1.67,3.67,3.67,4.00,2.00
+R017,47,Female,"£40k–£59,999",Weekly or more,Purchased previously,5,5,4,6,6,5,5,4,4,3,5,4,3,2,4,4.67,5.67,4.33,4.00,3.00
+R018,18,Female,"£20k–£39,999",Less than monthly,"Aware, never purchased",4,4,5,4,5,4,3,4,3,3,3,2,2,2,3,4.33,4.33,3.33,2.67,2.33
+R019,48,Female,"£60k–£79,999",Weekly or more,"Aware, never purchased",2,3,3,4,4,5,4,2,4,4,5,3,3,2,2,2.67,4.33,3.33,4.00,2.33
+R020,33,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",4,4,3,4,3,3,4,4,5,4,5,3,6,5,4,3.67,3.33,4.33,4.00,5.00
+R021,34,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",4,5,4,3,3,3,4,2,4,4,5,3,4,3,5,4.33,3.00,3.33,4.00,4.00
+R022,18,Male,"£40k–£59,999",2–3 times a month,Purchased previously,2,2,2,3,3,3,3,4,2,4,3,3,5,4,4,2.00,3.00,3.00,3.33,4.33
+R023,33,Male,Under £20k,Less than monthly,Had not heard of it,4,5,5,4,6,5,5,5,5,4,5,5,4,4,6,4.67,5.00,5.00,4.67,4.67
+R024,42,Non-binary,"£40k–£59,999",2–3 times a month,Had not heard of it,2,4,3,4,3,3,2,2,1,2,1,1,5,4,4,3.00,3.33,1.67,1.33,4.33
+R025,19,Male,"£40k–£59,999",2–3 times a month,Purchased previously,3,3,2,3,3,2,2,3,4,3,4,3,2,2,4,2.67,2.67,3.00,3.33,2.67
+R026,41,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",3,4,4,5,4,5,4,4,4,4,5,4,5,6,6,3.67,4.67,4.00,4.33,5.67
+R027,36,Male,"£60k–£79,999",Less than monthly,Had not heard of it,1,3,4,4,3,5,2,3,3,3,2,4,2,3,3,2.67,4.00,2.67,3.00,2.67
+R028,27,Female,"£60k–£79,999",Less than monthly,Had not heard of it,5,5,4,2,3,3,4,5,4,3,5,4,3,3,5,4.67,2.67,4.33,4.00,3.67
+R029,45,Prefer not to say,£80k+,Monthly,Had not heard of it,3,2,2,2,2,2,3,4,3,3,4,3,3,4,4,2.33,2.00,3.33,3.33,3.67
+R030,18,Female,"£20k–£39,999",Monthly,Had not heard of it,5,4,4,5,5,4,5,4,5,4,4,5,5,5,5,4.33,4.67,4.67,4.33,5.00
+R031,39,Male,"£20k–£39,999",Monthly,Had not heard of it,2,2,3,4,3,4,3,3,3,4,4,4,3,4,3,2.33,3.67,3.00,4.00,3.33
+R032,54,Male,"£60k–£79,999",2–3 times a month,Had not heard of it,4,5,5,4,5,6,5,6,6,5,4,4,5,5,5,4.67,5.00,5.67,4.33,5.00
+R033,52,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,4,4,3,1,2,2,3,2,2,2,3,2,1,2,4.00,2.00,2.33,2.33,1.67
+R034,40,Male,"£40k–£59,999",2–3 times a month,Purchased previously,4,5,5,5,4,4,2,3,3,3,3,4,4,4,3,4.67,4.33,2.67,3.33,3.67
+R035,31,Female,"£40k–£59,999",Less than monthly,Purchased previously,5,3,4,6,5,6,6,7,5,7,7,7,5,5,5,4.00,5.67,6.00,7.00,5.00
+R036,27,Female,"£60k–£79,999",Monthly,"Aware, never purchased",5,5,5,4,4,4,1,2,3,4,4,5,2,1,2,5.00,4.00,2.00,4.33,1.67
+R037,31,Female,"£20k–£39,999",Monthly,"Aware, never purchased",3,3,3,4,3,3,3,3,1,4,2,4,3,2,3,3.00,3.33,2.33,3.33,2.67
+R038,42,Female,"£40k–£59,999",Less than monthly,Purchased previously,5,5,5,6,5,5,3,4,4,4,4,4,6,5,5,5.00,5.33,3.67,4.00,5.33
+R039,25,Male,Under £20k,Never,"Aware, never purchased",2,3,4,3,2,3,2,3,3,5,5,5,4,3,3,3.00,2.67,2.67,5.00,3.33
+R040,44,Male,"£20k–£39,999",Monthly,"Aware, never purchased",3,4,4,6,5,4,5,4,5,3,2,5,6,6,6,3.67,5.00,4.67,3.33,6.00
+R041,61,Female,"£40k–£59,999",Less than monthly,Had not heard of it,3,3,4,3,4,3,5,5,6,3,3,2,6,4,6,3.33,3.33,5.33,2.67,5.33
+R042,34,Male,"£40k–£59,999",Monthly,"Aware, never purchased",6,5,6,2,5,4,4,7,5,5,4,5,4,4,4,5.67,3.67,5.33,4.67,4.00
+R043,19,Male,"£20k–£39,999",Never,"Aware, never purchased",2,5,4,4,4,5,4,4,5,5,4,5,5,5,5,3.67,4.33,4.33,4.67,5.00
+R044,19,Male,£80k+,Less than monthly,"Aware, never purchased",4,3,3,2,3,3,3,1,3,2,5,3,2,3,1,3.33,2.67,2.33,3.33,2.00
+R045,44,Female,"£60k–£79,999",Never,Had not heard of it,6,6,6,5,5,5,4,5,4,6,6,5,5,7,5,6.00,5.00,4.33,5.67,5.67
+R046,34,Male,"£40k–£59,999",2–3 times a month,Purchased previously,6,4,6,6,4,4,5,4,4,5,6,5,5,4,5,5.33,4.67,4.33,5.33,4.67
+R047,46,Female,Prefer not to say,Monthly,"Aware, never purchased",4,4,3,6,6,6,5,6,6,3,3,2,4,5,5,3.67,6.00,5.67,2.67,4.67
+R048,29,Male,"£20k–£39,999",Monthly,"Aware, never purchased",3,1,3,5,5,6,6,6,5,5,4,3,3,4,4,2.33,5.33,5.67,4.00,3.67
+R049,45,Male,"£60k–£79,999",Less than monthly,Had not heard of it,3,4,4,5,5,5,4,3,3,3,3,2,5,4,6,3.67,5.00,3.33,2.67,5.00
+R050,33,Male,Under £20k,Weekly or more,"Aware, never purchased",5,5,4,5,3,4,5,4,4,2,4,4,4,3,2,4.67,4.00,4.33,3.33,3.00
+R051,26,Female,"£20k–£39,999",Monthly,"Aware, never purchased",4,5,5,4,5,5,4,5,6,5,4,5,6,7,7,4.67,4.67,5.00,4.67,6.67
+R052,30,Female,"£20k–£39,999",2–3 times a month,Had not heard of it,2,2,1,2,3,3,3,4,2,1,1,1,5,4,3,1.67,2.67,3.00,1.00,4.00
+R053,21,Male,Under £20k,Monthly,"Aware, never purchased",3,2,4,2,4,4,5,4,4,3,2,2,3,2,2,3.00,3.33,4.33,2.33,2.33
+R054,59,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,6,3,5,4,4,4,4,3,6,5,5,4,4,5,4.33,4.33,3.67,5.33,4.33
+R055,34,Female,"£20k–£39,999",Weekly or more,Purchased previously,4,6,5,6,7,6,4,4,5,4,3,2,5,5,4,5.00,6.33,4.33,3.00,4.67
+R056,43,Male,"£40k–£59,999",Monthly,Had not heard of it,3,4,4,3,4,4,6,5,3,4,3,3,3,3,2,3.67,3.67,4.67,3.33,2.67
+R057,29,Male,"£20k–£39,999",2–3 times a month,Purchased previously,4,4,4,3,5,6,7,7,5,6,7,5,6,5,6,4.00,4.67,6.33,6.00,5.67
+R058,22,Female,Under £20k,Less than monthly,"Aware, never purchased",2,3,3,4,4,3,2,3,3,2,2,4,4,2,3,2.67,3.67,2.67,2.67,3.00
+R059,32,Female,Prefer not to say,2–3 times a month,Had not heard of it,4,3,5,5,6,5,3,4,2,4,2,2,5,5,6,4.00,5.33,3.00,2.67,5.33
+R060,48,Non-binary,"£40k–£59,999",Monthly,Had not heard of it,2,1,2,2,4,4,2,3,2,2,2,1,2,2,3,1.67,3.33,2.33,1.67,2.33
+R061,29,Female,Prefer not to say,Never,Had not heard of it,2,2,3,3,4,3,2,3,3,3,2,2,3,4,3,2.33,3.33,2.67,2.33,3.33
+R062,25,Female,"£40k–£59,999",Weekly or more,Had not heard of it,7,6,7,4,4,4,4,4,4,6,7,6,5,4,4,6.67,4.00,4.00,6.33,4.33
+R063,37,Female,Under £20k,Weekly or more,"Aware, never purchased",7,7,7,4,5,4,5,5,4,5,6,4,5,5,6,7.00,4.33,4.67,5.00,5.33
+R064,41,Female,"£40k–£59,999",Less than monthly,"Aware, never purchased",6,5,5,4,3,5,4,3,3,6,5,6,5,4,3,5.33,4.00,3.33,5.67,4.00
+R065,55,Prefer not to say,"£40k–£59,999",Weekly or more,Had not heard of it,3,4,4,4,4,3,4,4,5,2,2,2,4,6,4,3.67,3.67,4.33,2.00,4.67
+R066,39,Female,Under £20k,Monthly,Purchased previously,4,3,5,3,5,4,4,5,5,4,3,3,5,3,4,4.00,4.00,4.67,3.33,4.00
+R067,43,Female,£80k+,Monthly,Had not heard of it,3,5,4,4,6,5,5,5,4,4,4,5,5,4,4,4.00,5.00,4.67,4.33,4.33
+R068,44,Male,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,4,2,5,4,4,4,4,3,4,4,5,4,5,5,3.33,4.33,3.67,4.33,4.67
+R069,21,Female,"£60k–£79,999",Less than monthly,Purchased previously,4,5,4,7,5,5,6,7,6,5,6,5,7,7,6,4.33,5.67,6.33,5.33,6.67
+R070,23,Female,"£40k–£59,999",Monthly,Purchased previously,3,4,3,2,3,2,5,5,4,4,4,3,4,5,5,3.33,2.33,4.67,3.67,4.67
+R071,22,Prefer not to say,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,3,5,1,3,2,5,3,4,6,5,5,4,4,5,4.00,2.00,4.00,5.33,4.33
+R072,19,Male,"£20k–£39,999",Less than monthly,"Aware, never purchased",3,2,3,3,2,3,4,4,3,3,3,3,4,4,5,2.67,2.67,3.67,3.00,4.33
+R073,45,Female,Prefer not to say,Monthly,Had not heard of it,3,3,4,4,4,3,4,4,4,5,4,4,4,4,2,3.33,3.67,4.00,4.33,3.33
+R074,38,Female,"£20k–£39,999",Less than monthly,Had not heard of it,5,6,5,3,2,2,4,3,3,5,5,5,4,4,3,5.33,2.33,3.33,5.00,3.67
+R075,36,Female,Under £20k,2–3 times a month,"Aware, never purchased",4,6,5,5,4,3,2,1,2,3,3,3,2,2,3,5.00,4.00,1.67,3.00,2.33
+R076,18,Female,Under £20k,Less than monthly,Had not heard of it,6,5,5,3,4,4,6,5,4,5,5,4,6,6,4,5.33,3.67,5.00,4.67,5.33
+R077,60,Male,"£40k–£59,999",Less than monthly,"Aware, never purchased",4,4,4,2,3,3,2,3,4,5,4,5,3,3,3,4.00,2.67,3.00,4.67,3.00
+R078,24,Male,Prefer not to say,2–3 times a month,Had not heard of it,5,4,4,5,6,6,6,7,6,4,6,5,7,7,7,4.33,5.67,6.33,5.00,7.00
+R079,60,Male,£80k+,Less than monthly,Purchased previously,5,6,5,6,6,5,6,5,6,6,5,4,7,5,6,5.33,5.67,5.67,5.00,6.00
+R080,18,Male,"£60k–£79,999",Monthly,Purchased previously,4,3,4,3,4,3,4,5,4,4,2,2,4,4,5,3.67,3.33,4.33,2.67,4.33
+R081,25,Female,Prefer not to say,2–3 times a month,Purchased previously,5,6,5,5,4,3,5,6,5,6,4,5,6,6,6,5.33,4.00,5.33,5.00,6.00
+R082,18,Male,"£60k–£79,999",2–3 times a month,"Aware, never purchased",5,6,5,5,6,5,4,3,3,4,5,4,2,3,2,5.33,5.33,3.33,4.33,2.33
+R083,39,Male,"£20k–£39,999",Less than monthly,Had not heard of it,2,3,2,4,3,3,6,5,4,5,4,5,1,3,2,2.33,3.33,5.00,4.67,2.00
+R084,22,Female,"£40k–£59,999",2–3 times a month,Had not heard of it,4,3,3,4,2,1,4,3,3,2,2,2,4,3,4,3.33,2.33,3.33,2.00,3.67
+R085,22,Male,Under £20k,2–3 times a month,"Aware, never purchased",3,3,4,5,3,4,6,4,6,4,5,5,5,4,4,3.33,4.00,5.33,4.67,4.33
+R086,19,Female,"£20k–£39,999",Monthly,"Aware, never purchased",2,3,3,3,3,3,3,3,4,5,3,3,4,2,3,2.67,3.00,3.33,3.67,3.00
+R087,44,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",5,6,5,3,3,2,4,3,4,4,5,5,2,2,2,5.33,2.67,3.67,4.67,2.00
+R088,44,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",2,2,2,4,4,4,4,3,4,4,5,4,4,5,4,2.00,4.00,3.67,4.33,4.33
+R089,57,Female,Prefer not to say,Monthly,"Aware, never purchased",3,3,3,4,5,4,6,6,6,5,5,4,6,7,6,3.00,4.33,6.00,4.67,6.33
+R090,27,Male,Prefer not to say,Monthly,Had not heard of it,5,4,6,4,4,4,3,4,4,4,6,3,6,5,6,5.00,4.00,3.67,4.33,5.67
+R091,38,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",4,4,3,5,5,4,5,6,5,3,3,5,5,5,5,3.67,4.67,5.33,3.67,5.00
+R092,20,Male,"£60k–£79,999",Weekly or more,"Aware, never purchased",5,5,4,6,5,6,4,3,2,4,3,4,4,4,5,4.67,5.67,3.00,3.67,4.33
+R093,31,Female,"£20k–£39,999",Monthly,"Aware, never purchased",3,4,3,6,5,4,5,5,5,6,5,6,4,4,4,3.33,5.00,5.00,5.67,4.00
+R094,29,Female,Under £20k,2–3 times a month,Purchased previously,6,5,5,5,6,5,4,6,7,7,7,7,4,4,3,5.33,5.33,5.67,7.00,3.67
+R095,41,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",2,3,4,3,2,1,5,5,5,4,4,4,3,4,5,3.00,2.00,5.00,4.00,4.00
+R096,47,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",5,5,3,5,4,5,5,2,3,2,4,2,5,4,5,4.33,4.67,3.33,2.67,4.67
+R097,47,Female,"£20k–£39,999",Weekly or more,Purchased previously,3,3,1,3,1,2,3,3,3,4,3,5,1,1,3,2.33,2.00,3.00,4.00,1.67
+R098,25,Male,"£20k–£39,999",Less than monthly,Had not heard of it,4,4,4,2,3,3,3,3,2,3,3,3,1,1,1,4.00,2.67,2.67,3.00,1.00
+R099,47,Female,Under £20k,Less than monthly,"Aware, never purchased",2,3,3,5,5,5,4,6,4,4,3,4,3,4,4,2.67,5.00,4.67,3.67,3.67
+R100,34,Female,"£20k–£39,999",Monthly,"Aware, never purchased",5,4,4,5,5,4,4,4,6,2,4,4,5,3,5,4.33,4.67,4.67,3.33,4.33
+R101,31,Female,£80k+,Monthly,"Aware, never purchased",4,4,4,5,3,5,5,6,4,3,5,3,4,5,3,4.00,4.33,5.00,3.67,4.00
+R102,26,Female,Under £20k,Monthly,Had not heard of it,4,5,3,5,4,4,5,4,5,5,4,6,2,3,3,4.00,4.33,4.67,5.00,2.67
+R103,28,Male,"£20k–£39,999",2–3 times a month,Purchased previously,2,2,2,2,1,2,1,3,2,1,1,1,1,2,1,2.00,1.67,2.00,1.00,1.33
+R104,56,Female,"£40k–£59,999",Weekly or more,Purchased previously,4,2,2,4,4,5,4,4,3,4,4,4,5,5,5,2.67,4.33,3.67,4.00,5.00
+R105,39,Male,"£20k–£39,999",Monthly,Had not heard of it,5,5,5,6,5,6,4,4,3,7,5,6,5,6,6,5.00,5.67,3.67,6.00,5.67
+R106,37,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,4,5,5,3,3,3,4,4,3,3,3,2,1,2,2,4.67,3.00,3.67,2.67,1.67
+R107,32,Male,Under £20k,Less than monthly,Had not heard of it,3,3,2,4,3,3,5,4,4,5,4,4,3,2,4,2.67,3.33,4.33,4.33,3.00
+R108,64,Male,"£40k–£59,999",Monthly,Purchased previously,3,3,3,5,3,4,2,2,3,4,3,4,3,4,4,3.00,4.00,2.33,3.67,3.67
+R109,51,Male,"£40k–£59,999",Never,"Aware, never purchased",3,4,4,2,2,2,4,6,4,4,3,3,2,1,1,3.67,2.00,4.67,3.33,1.33
+R110,26,Male,"£60k–£79,999",Monthly,Had not heard of it,5,3,3,3,4,2,2,4,3,4,3,5,3,3,4,3.67,3.00,3.00,4.00,3.33
+R111,32,Male,"£40k–£59,999",Monthly,Purchased previously,4,4,3,3,3,5,5,5,4,6,5,6,2,3,3,3.67,3.67,4.67,5.67,2.67
+R112,32,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",4,4,4,2,2,2,4,4,3,3,4,4,5,4,4,4.00,2.00,3.67,3.67,4.33
+R113,37,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",5,5,6,4,5,7,4,5,5,4,5,4,4,4,4,5.33,5.33,4.67,4.33,4.00
+R114,27,Female,"£20k–£39,999",Monthly,"Aware, never purchased",5,6,6,7,6,7,5,4,7,6,6,6,7,6,5,5.67,6.67,5.33,6.00,6.00
+R115,40,Male,"£40k–£59,999",Never,"Aware, never purchased",6,4,4,3,2,4,4,4,4,3,4,5,5,5,6,4.67,3.00,4.00,4.00,5.33
+R116,52,Female,Under £20k,Less than monthly,"Aware, never purchased",3,4,4,4,4,3,1,3,2,2,1,3,4,4,5,3.67,3.67,2.00,2.00,4.33
+R117,19,Male,"£20k–£39,999",Weekly or more,Had not heard of it,3,3,2,3,4,3,4,3,4,5,4,6,4,3,3,2.67,3.33,3.67,5.00,3.33
+R118,21,Non-binary,"£40k–£59,999",Weekly or more,"Aware, never purchased",5,5,6,3,2,4,5,5,5,4,4,4,4,6,4,5.33,3.00,5.00,4.00,4.67
+R119,29,Non-binary,Under £20k,Monthly,Purchased previously,4,3,4,5,3,5,5,5,4,5,5,4,2,3,2,3.67,4.33,4.67,4.67,2.33
+R120,30,Male,Under £20k,Less than monthly,"Aware, never purchased",6,5,4,4,4,4,5,3,4,7,7,6,6,5,6,5.00,4.00,4.00,6.67,5.67
+R121,59,Male,"£40k–£59,999",Monthly,Purchased previously,5,3,5,5,4,5,5,5,4,5,4,5,5,4,4,4.33,4.67,4.67,4.67,4.33
+R122,47,Male,"£20k–£39,999",2–3 times a month,"Aware, never purchased",5,4,4,4,3,3,3,3,2,4,5,4,3,2,3,4.33,3.33,2.67,4.33,2.67
+R123,46,Female,"£60k–£79,999",Monthly,"Aware, never purchased",3,4,3,3,6,5,5,4,4,2,4,5,5,5,5,3.33,4.67,4.33,3.67,5.00
+R124,32,Female,Prefer not to say,Never,"Aware, never purchased",4,4,3,5,5,5,4,4,4,5,5,6,3,2,2,3.67,5.00,4.00,5.33,2.33
+R125,32,Female,Prefer not to say,Monthly,Purchased previously,2,1,1,3,3,3,2,1,1,2,2,2,3,2,2,1.33,3.00,1.33,2.00,2.33
+R126,18,Female,"£20k–£39,999",Less than monthly,Had not heard of it,4,6,7,7,6,5,6,3,5,4,3,2,5,5,6,5.67,6.00,4.67,3.00,5.33
+R127,44,Non-binary,"£20k–£39,999",Monthly,Had not heard of it,2,1,1,3,1,3,4,5,4,3,4,3,4,3,4,1.33,2.33,4.33,3.33,3.67
+R128,41,Male,"£40k–£59,999",Less than monthly,Had not heard of it,4,3,3,4,5,5,3,3,2,4,3,4,2,2,3,3.33,4.67,2.67,3.67,2.33
+R129,50,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,3,4,3,4,4,4,4,5,4,4,5,5,5,5,6,3.33,4.00,4.33,4.67,5.33
+R130,32,Female,"£40k–£59,999",Monthly,Purchased previously,5,4,5,4,3,3,5,7,6,7,5,6,5,4,5,4.67,3.33,6.00,6.00,4.67
+R131,33,Male,"£20k–£39,999",Less than monthly,Purchased previously,4,2,2,4,3,2,5,4,3,4,5,4,2,1,2,2.67,3.00,4.00,4.33,1.67
+R132,37,Female,Under £20k,Monthly,"Aware, never purchased",4,5,5,4,5,5,5,7,5,5,6,6,4,5,4,4.67,4.67,5.67,5.67,4.33
+R133,46,Male,"£20k–£39,999",Monthly,Had not heard of it,3,5,4,6,5,6,4,4,4,3,4,4,5,6,6,4.00,5.67,4.00,3.67,5.67
+R134,18,Prefer not to say,Under £20k,2–3 times a month,Purchased previously,3,3,4,4,4,5,2,3,2,5,5,4,3,3,2,3.33,4.33,2.33,4.67,2.67
+R135,44,Female,Under £20k,Weekly or more,"Aware, never purchased",4,3,4,5,4,4,2,2,2,3,3,3,3,3,4,3.67,4.33,2.00,3.00,3.33
+R136,35,Female,£80k+,Less than monthly,"Aware, never purchased",1,2,2,3,4,1,3,3,4,3,2,4,4,4,3,1.67,2.67,3.33,3.00,3.67
+R137,22,Female,Under £20k,Weekly or more,"Aware, never purchased",3,4,3,4,3,3,4,4,4,2,3,3,4,5,5,3.33,3.33,4.00,2.67,4.67
+R138,18,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",5,5,3,5,5,5,5,5,5,6,5,5,5,4,5,4.33,5.00,5.00,5.33,4.67
+R139,33,Female,Prefer not to say,2–3 times a month,Had not heard of it,5,2,4,6,6,5,4,4,5,4,5,2,7,7,7,3.67,5.67,4.33,3.67,7.00
+R140,52,Female,"£20k–£39,999",Monthly,"Aware, never purchased",4,3,2,3,3,3,3,3,2,2,4,3,3,3,2,3.00,3.00,2.67,3.00,2.67
+R141,55,Female,"£40k–£59,999",Monthly,"Aware, never purchased",3,5,3,3,4,5,4,5,5,3,3,3,4,4,3,3.67,4.00,4.67,3.00,3.67
+R142,39,Female,"£60k–£79,999",Never,Had not heard of it,6,5,4,4,5,5,5,4,5,5,5,4,6,5,4,5.00,4.67,4.67,4.67,5.00
+R143,59,Female,"£20k–£39,999",Weekly or more,"Aware, never purchased",4,4,5,6,6,3,3,3,3,3,4,3,4,4,4,4.33,5.00,3.00,3.33,4.00
+R144,34,Male,"£40k–£59,999",Monthly,"Aware, never purchased",5,3,4,5,3,4,4,3,4,2,2,2,3,3,4,4.00,4.00,3.67,2.00,3.33
+R145,46,Female,"£60k–£79,999",Monthly,"Aware, never purchased",5,6,4,6,5,6,7,4,5,4,4,5,4,4,5,5.00,5.67,5.33,4.33,4.33
+R146,30,Male,"£60k–£79,999",Monthly,Purchased previously,3,2,1,2,2,2,2,2,4,1,1,1,3,3,2,2.00,2.00,2.67,1.00,2.67
+R147,29,Female,"£60k–£79,999",Never,Purchased previously,4,4,4,7,6,6,3,4,3,3,3,5,6,4,5,4.00,6.33,3.33,3.67,5.00
+R148,27,Female,Prefer not to say,Less than monthly,"Aware, never purchased",4,3,3,6,6,6,3,2,4,4,5,4,4,4,3,3.33,6.00,3.00,4.33,3.67
+R149,18,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",6,5,5,3,2,3,5,3,2,4,3,4,4,6,6,5.33,2.67,3.33,3.67,5.33
+R150,50,Male,"£60k–£79,999",Monthly,"Aware, never purchased",3,3,5,4,5,5,5,4,5,2,2,2,5,4,3,3.67,4.67,4.67,2.00,4.00
+R151,27,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",5,5,3,4,5,5,5,5,5,3,5,4,5,4,5,4.33,4.67,5.00,4.00,4.67
+R152,25,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,3,4,3,4,4,5,5,4,4,4,4,4,4,5,5,3.33,4.33,4.33,4.00,4.67
+R153,21,Female,"£60k–£79,999",Monthly,"Aware, never purchased",3,1,2,4,4,4,3,2,3,3,3,3,2,2,2,2.00,4.00,2.67,3.00,2.00
+R154,33,Prefer not to say,"£60k–£79,999",2–3 times a month,"Aware, never purchased",2,3,2,3,3,4,2,3,3,1,1,2,2,5,5,2.33,3.33,2.67,1.33,4.00
+R155,56,Female,£80k+,Never,"Aware, never purchased",5,5,4,4,7,4,4,4,4,6,5,7,6,5,5,4.67,5.00,4.00,6.00,5.33
+R156,60,Female,"£20k–£39,999",2–3 times a month,Purchased previously,4,4,3,3,4,5,5,5,4,4,4,4,5,5,3,3.67,4.00,4.67,4.00,4.33
+R157,18,Male,"£40k–£59,999",2–3 times a month,"Aware, never purchased",4,5,4,4,4,2,4,4,3,7,5,3,3,4,4,4.33,3.33,3.67,5.00,3.67
+R158,31,Female,"£20k–£39,999",Less than monthly,"Aware, never purchased",3,3,4,1,1,1,3,5,5,6,6,6,2,1,3,3.33,1.00,4.33,6.00,2.00
+R159,23,Female,"£40k–£59,999",Less than monthly,Had not heard of it,3,4,2,2,1,1,4,2,2,3,4,4,3,2,3,3.00,1.33,2.67,3.67,2.67
+R160,47,Male,"£60k–£79,999",Less than monthly,Had not heard of it,4,5,4,2,2,3,4,4,3,5,4,4,3,3,4,4.33,2.33,3.67,4.33,3.33
+R161,38,Female,"£60k–£79,999",Less than monthly,"Aware, never purchased",3,2,2,4,5,5,6,4,5,5,4,4,4,4,5,2.33,4.67,5.00,4.33,4.33
+R162,27,Female,"£20k–£39,999",Monthly,"Aware, never purchased",3,3,3,5,4,4,5,6,4,2,2,2,4,4,5,3.00,4.33,5.00,2.00,4.33
+R163,36,Female,"£40k–£59,999",Less than monthly,Had not heard of it,4,4,4,4,4,3,5,6,7,3,3,4,3,4,3,4.00,3.67,6.00,3.33,3.33
+R164,29,Female,"£20k–£39,999",2–3 times a month,Had not heard of it,5,6,6,3,3,4,4,4,6,5,6,5,5,5,5,5.67,3.33,4.67,5.33,5.00
+R165,54,Male,Under £20k,Less than monthly,Had not heard of it,3,4,3,4,3,3,5,5,4,4,3,4,4,4,4,3.33,3.33,4.67,3.67,4.00
+R166,42,Male,"£20k–£39,999",Never,Purchased previously,3,2,2,2,4,3,2,1,2,3,3,3,3,3,3,2.33,3.00,1.67,3.00,3.00
+R167,43,Male,£80k+,Monthly,"Aware, never purchased",4,6,4,2,3,2,3,2,2,5,4,4,2,1,3,4.67,2.33,2.33,4.33,2.00
+R168,18,Female,"£20k–£39,999",Less than monthly,"Aware, never purchased",3,4,4,1,2,1,3,3,4,4,3,4,5,4,4,3.67,1.33,3.33,3.67,4.33
+R169,34,Male,Prefer not to say,Weekly or more,Had not heard of it,2,4,3,2,2,3,5,2,3,5,4,4,4,3,4,3.00,2.33,3.33,4.33,3.67
+R170,60,Male,"£20k–£39,999",Less than monthly,Had not heard of it,6,7,7,5,5,6,5,5,6,5,5,5,6,7,7,6.67,5.33,5.33,5.00,6.67
+R171,51,Female,"£60k–£79,999",Less than monthly,Had not heard of it,4,6,5,5,6,5,6,5,5,5,4,5,5,4,4,5.00,5.33,5.33,4.67,4.33
+R172,18,Male,"£40k–£59,999",Less than monthly,"Aware, never purchased",4,5,4,2,4,5,4,5,4,5,5,6,6,5,4,4.33,3.67,4.33,5.33,5.00
+R173,31,Male,"£60k–£79,999",Monthly,Had not heard of it,4,3,4,5,5,3,4,4,5,4,3,4,4,4,4,3.67,4.33,4.33,3.67,4.00
+R174,21,Male,"£40k–£59,999",Monthly,"Aware, never purchased",5,5,4,3,2,2,3,4,4,3,1,3,2,3,2,4.67,2.33,3.67,2.33,2.33
+R175,56,Female,"£60k–£79,999",2–3 times a month,Purchased previously,2,2,1,1,2,2,2,2,2,2,2,3,2,1,2,1.67,1.67,2.00,2.33,1.67
+R176,38,Female,£80k+,Monthly,"Aware, never purchased",4,6,3,5,5,4,3,4,4,5,4,3,5,5,1,4.33,4.67,3.67,4.00,3.67
+R177,26,Male,"£40k–£59,999",2–3 times a month,Purchased previously,5,5,6,3,3,3,3,2,3,5,4,5,5,5,3,5.33,3.00,2.67,4.67,4.33
+R178,35,Male,Under £20k,Monthly,Had not heard of it,3,4,3,5,5,5,6,4,4,4,6,3,5,2,5,3.33,5.00,4.67,4.33,4.00
+R179,18,Female,"£20k–£39,999",2–3 times a month,Had not heard of it,3,3,3,3,2,2,4,4,4,2,2,2,4,2,4,3.00,2.33,4.00,2.00,3.33
+R180,22,Female,"£60k–£79,999",Monthly,Purchased previously,3,2,3,5,4,3,3,3,3,3,3,2,5,5,5,2.67,4.00,3.00,2.67,5.00
+R181,35,Male,"£40k–£59,999",Less than monthly,"Aware, never purchased",5,4,5,6,6,5,1,2,3,2,2,2,4,3,5,4.67,5.67,2.00,2.00,4.00
+R182,45,Female,"£40k–£59,999",2–3 times a month,"Aware, never purchased",3,2,2,5,5,5,6,4,3,4,4,5,3,3,1,2.33,5.00,4.33,4.33,2.33
+R183,18,Female,"£40k–£59,999",2–3 times a month,Purchased previously,3,3,3,4,3,3,4,6,4,4,3,3,2,2,2,3.00,3.33,4.67,3.33,2.00
+R184,30,Male,"£20k–£39,999",Monthly,"Aware, never purchased",4,5,4,5,3,5,4,5,4,3,5,5,4,4,3,4.33,4.33,4.33,4.33,3.67
+R185,47,Female,"£60k–£79,999",Weekly or more,"Aware, never purchased",6,7,5,5,3,4,2,3,3,2,1,3,3,3,2,6.00,4.00,2.67,2.00,2.67
+R186,18,Female,"£60k–£79,999",Weekly or more,"Aware, never purchased",5,5,4,5,6,6,3,3,4,2,3,3,5,3,5,4.67,5.67,3.33,2.67,4.33
+R187,38,Female,"£60k–£79,999",Less than monthly,Had not heard of it,4,3,3,5,6,4,6,6,5,4,5,5,6,6,7,3.33,5.00,5.67,4.67,6.33
+R188,36,Male,"£60k–£79,999",2–3 times a month,Had not heard of it,5,4,4,3,3,2,4,3,5,6,4,5,3,2,3,4.33,2.67,4.00,5.00,2.67
+R189,56,Female,£80k+,Monthly,Had not heard of it,3,3,4,5,4,6,5,5,6,6,5,4,6,5,6,3.33,5.00,5.33,5.00,5.67
+R190,32,Male,"£40k–£59,999",Monthly,Purchased previously,3,3,3,4,6,4,6,5,5,5,3,5,3,3,4,3.00,4.67,5.33,4.33,3.33
+R191,33,Prefer not to say,Prefer not to say,Monthly,"Aware, never purchased",5,4,4,6,5,5,5,5,5,6,3,5,4,5,5,4.33,5.33,5.00,4.67,4.67
+R192,45,Male,Under £20k,2–3 times a month,"Aware, never purchased",4,4,3,2,3,3,3,3,4,4,3,4,4,4,4,3.67,2.67,3.33,3.67,4.00
+R193,19,Male,"£40k–£59,999",Monthly,Had not heard of it,3,3,1,4,5,5,5,6,5,5,4,5,3,5,5,2.33,4.67,5.33,4.67,4.33
+R194,32,Male,"£60k–£79,999",Monthly,"Aware, never purchased",4,5,5,7,5,6,5,4,6,4,4,5,6,5,6,4.67,6.00,5.00,4.33,5.67
+R195,30,Female,"£40k–£59,999",Never,Purchased previously,2,3,4,4,4,3,4,5,3,2,3,2,2,1,1,3.00,3.67,4.00,2.33,1.33
+R196,33,Male,"£20k–£39,999",Monthly,"Aware, never purchased",5,4,4,4,4,5,6,5,5,4,4,5,5,7,7,4.33,4.33,5.33,4.33,6.33
+R197,45,Non-binary,"£40k–£59,999",Weekly or more,"Aware, never purchased",4,4,4,4,5,5,4,4,3,5,4,3,5,4,6,4.00,4.67,3.67,4.00,5.00
+R198,42,Male,"£20k–£39,999",2–3 times a month,Purchased previously,3,3,3,5,3,5,2,1,2,1,3,2,3,3,4,3.00,4.33,1.67,2.00,3.33
+R199,26,Female,£80k+,Never,Purchased previously,5,5,5,4,4,4,3,2,2,5,3,4,5,6,4,5.00,4.00,2.33,4.00,5.00
+R200,37,Female,"£20k–£39,999",Weekly or more,Purchased previously,4,4,6,7,6,5,7,5,6,5,5,5,4,4,3,4.67,6.00,6.00,5.00,3.67
+R201,53,Male,Under £20k,2–3 times a month,"Aware, never purchased",3,2,3,4,3,4,4,4,3,4,4,4,4,5,5,2.67,3.67,3.67,4.00,4.67
+R202,25,Female,"£40k–£59,999",Monthly,Had not heard of it,6,5,5,4,5,5,5,4,6,4,3,3,5,4,5,5.33,4.67,5.00,3.33,4.67
+R203,37,Male,"£20k–£39,999",Never,"Aware, never purchased",5,3,3,3,5,4,3,3,3,5,3,3,4,4,4,3.67,4.00,3.00,3.67,4.00
+R204,33,Female,Under £20k,Monthly,"Aware, never purchased",4,5,5,4,5,3,2,4,5,4,4,4,3,4,1,4.67,4.00,3.67,4.00,2.67
+R205,34,Male,"£40k–£59,999",Never,Purchased previously,4,4,4,4,4,5,4,3,3,3,3,3,4,5,2,4.00,4.33,3.33,3.00,3.67
+R206,18,Male,"£40k–£59,999",Monthly,Had not heard of it,3,4,4,5,5,6,3,3,3,1,3,2,4,4,4,3.67,5.33,3.00,2.00,4.00
+R207,52,Female,Under £20k,2–3 times a month,"Aware, never purchased",2,3,2,3,2,2,4,4,4,3,2,3,4,4,3,2.33,2.33,4.00,2.67,3.67
+R208,26,Female,"£40k–£59,999",Weekly or more,Purchased previously,5,5,5,3,2,1,4,3,4,5,7,5,5,4,6,5.00,2.00,3.67,5.67,5.00
+R209,47,Male,"£40k–£59,999",Monthly,Purchased previously,3,3,4,3,3,4,3,3,3,3,2,2,3,3,2,3.33,3.33,3.00,2.33,2.67
+R210,28,Female,"£60k–£79,999",Weekly or more,"Aware, never purchased",3,4,4,4,5,5,5,5,5,4,5,3,5,6,5,3.67,4.67,5.00,4.00,5.33
+R211,27,Female,"£20k–£39,999",Weekly or more,Purchased previously,6,7,6,5,5,4,6,7,7,4,4,4,4,5,6,6.33,4.67,6.67,4.00,5.00
+R212,50,Male,"£20k–£39,999",Never,Had not heard of it,4,4,4,5,5,5,7,7,7,5,4,5,7,7,6,4.00,5.00,7.00,4.67,6.67
+R213,47,Female,Prefer not to say,Less than monthly,"Aware, never purchased",3,4,4,5,5,4,5,4,4,2,3,4,3,3,1,3.67,4.67,4.33,3.00,2.33
+R214,38,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,6,5,5,4,5,4,6,5,4,5,5,4,6,6,6,5.33,4.33,5.00,4.67,6.00
+R215,44,Female,Under £20k,2–3 times a month,Purchased previously,6,5,4,4,4,5,2,3,3,3,4,4,5,5,5,5.00,4.33,2.67,3.67,5.00
+R216,32,Female,£80k+,Monthly,Purchased previously,2,2,4,2,3,3,3,4,2,4,4,4,3,1,1,2.67,2.67,3.00,4.00,1.67
+R217,35,Male,"£20k–£39,999",2–3 times a month,Had not heard of it,3,3,3,5,5,5,3,3,2,3,3,3,5,5,6,3.00,5.00,2.67,3.00,5.33
+R218,27,Female,"£60k–£79,999",Monthly,Had not heard of it,4,3,3,3,3,4,6,4,4,3,4,2,5,5,5,3.33,3.33,4.67,3.00,5.00
+R219,46,Female,"£60k–£79,999",2–3 times a month,"Aware, never purchased",5,5,5,4,4,4,3,1,2,2,3,1,4,5,4,5.00,4.00,2.00,2.00,4.33
+R220,27,Male,Prefer not to say,2–3 times a month,Had not heard of it,3,4,3,3,3,4,5,3,3,3,4,4,4,4,2,3.33,3.33,3.67,3.67,3.33
+R221,53,Male,Prefer not to say,Less than monthly,Purchased previously,4,4,5,6,5,7,4,4,4,2,3,3,6,4,4,4.33,6.00,4.00,2.67,4.67
+R222,31,Male,"£20k–£39,999",Less than monthly,Had not heard of it,3,3,4,4,4,4,4,5,4,4,3,4,5,4,4,3.33,4.00,4.33,3.67,4.33
+R223,35,Male,"£60k–£79,999",Less than monthly,Purchased previously,3,1,1,2,2,3,1,1,1,1,2,3,1,3,2,1.67,2.33,1.00,2.00,2.00
+R224,44,Female,"£20k–£39,999",Weekly or more,"Aware, never purchased",3,3,3,3,4,4,3,2,4,5,4,5,5,6,5,3.00,3.67,3.00,4.67,5.33
+R225,35,Female,"£40k–£59,999",Weekly or more,"Aware, never purchased",3,2,4,2,3,4,4,5,3,1,1,2,4,4,5,3.00,3.00,4.00,1.33,4.33
+R226,31,Male,"£40k–£59,999",2–3 times a month,Had not heard of it,4,5,5,4,4,3,4,4,4,5,6,6,4,4,4,4.67,3.67,4.00,5.67,4.00
+R227,35,Male,Under £20k,Less than monthly,Purchased previously,4,3,5,5,6,5,5,5,5,3,2,2,6,5,5,4.00,5.33,5.00,2.33,5.33
+R228,46,Male,Under £20k,Monthly,"Aware, never purchased",4,3,3,2,3,3,3,3,2,4,4,4,3,3,4,3.33,2.67,2.67,4.00,3.33
+R229,27,Female,Under £20k,Less than monthly,"Aware, never purchased",3,5,4,3,4,3,4,4,4,6,5,6,5,6,5,4.00,3.33,4.00,5.67,5.33
+R230,33,Female,Under £20k,Monthly,"Aware, never purchased",5,7,6,4,5,6,6,7,5,5,3,4,6,6,7,6.00,5.00,6.00,4.00,6.33
+R231,35,Female,"£20k–£39,999",Less than monthly,Purchased previously,4,3,3,4,3,4,4,3,3,4,2,2,4,3,3,3.33,3.67,3.33,2.67,3.33
+R232,45,Male,£80k+,2–3 times a month,Purchased previously,4,4,3,5,7,5,4,5,4,4,4,4,5,3,4,3.67,5.67,4.33,4.00,4.00
+R233,34,Male,"£40k–£59,999",Less than monthly,Purchased previously,4,4,4,5,4,5,5,4,3,5,5,5,5,3,3,4.00,4.67,4.00,5.00,3.67
+R234,57,Female,"£60k–£79,999",2–3 times a month,"Aware, never purchased",5,5,5,6,5,6,4,5,6,5,4,5,4,4,3,5.00,5.67,5.00,4.67,3.67
+R235,33,Female,£80k+,Weekly or more,Purchased previously,3,3,4,4,4,3,5,6,5,4,5,6,4,5,4,3.33,3.67,5.33,5.00,4.33
+R236,32,Female,"£60k–£79,999",2–3 times a month,"Aware, never purchased",4,4,5,5,5,5,5,5,5,6,6,5,4,4,5,4.33,5.00,5.00,5.67,4.33
+R237,33,Female,"£20k–£39,999",Never,"Aware, never purchased",5,4,5,3,3,4,4,5,5,1,2,1,3,3,5,4.67,3.33,4.67,1.33,3.67
+R238,19,Male,£80k+,Weekly or more,"Aware, never purchased",5,5,6,2,2,1,2,2,3,4,4,3,1,1,1,5.33,1.67,2.33,3.67,1.00
+R239,23,Male,"£60k–£79,999",2–3 times a month,"Aware, never purchased",4,4,4,3,4,3,3,3,4,6,5,4,3,2,3,4.00,3.33,3.33,5.00,2.67
+R240,29,Female,"£60k–£79,999",Monthly,Purchased previously,3,3,2,6,5,5,5,4,5,4,5,5,6,6,6,2.67,5.33,4.67,4.67,6.00
+R241,49,Male,£80k+,2–3 times a month,Purchased previously,6,5,6,5,5,5,4,4,3,4,5,5,4,3,4,5.67,5.00,3.67,4.67,3.67
+R242,35,Non-binary,"£40k–£59,999",Weekly or more,"Aware, never purchased",3,3,4,3,3,3,2,3,3,2,2,4,3,2,4,3.33,3.00,2.67,2.67,3.00
+R243,29,Female,"£40k–£59,999",Monthly,"Aware, never purchased",5,5,7,4,5,4,4,5,4,5,5,5,4,5,3,5.67,4.33,4.33,5.00,4.00
+R244,50,Female,£80k+,Monthly,Purchased previously,4,5,3,5,5,4,4,3,3,4,4,2,5,4,5,4.00,4.67,3.33,3.33,4.67
+R245,54,Female,"£40k–£59,999",Monthly,Purchased previously,4,6,4,4,4,4,3,3,2,6,5,4,4,3,4,4.67,4.00,2.67,5.00,3.67
+R246,50,Female,"£60k–£79,999",Never,"Aware, never purchased",4,4,4,2,4,4,4,5,4,4,5,4,3,4,3,4.00,3.33,4.33,4.33,3.33
+R247,25,Male,Under £20k,2–3 times a month,Had not heard of it,4,4,5,5,6,5,3,3,3,5,4,4,6,5,5,4.33,5.33,3.00,4.33,5.33
+R248,29,Male,Under £20k,Less than monthly,"Aware, never purchased",3,3,4,6,3,4,4,4,3,5,5,5,5,5,6,3.33,4.33,3.67,5.00,5.33
+R249,57,Female,"£40k–£59,999",Monthly,Purchased previously,6,5,5,6,6,7,4,5,5,5,7,6,6,6,6,5.33,6.33,4.67,6.00,6.00
+R250,38,Female,Under £20k,Monthly,"Aware, never purchased",4,5,6,4,6,5,4,4,4,5,5,6,5,4,4,5.00,5.00,4.00,5.33,4.33
+R251,32,Male,Prefer not to say,Less than monthly,"Aware, never purchased",3,4,4,3,3,4,4,3,4,5,4,4,4,4,4,3.67,3.33,3.67,4.33,4.00
+R252,44,Female,Under £20k,Monthly,"Aware, never purchased",2,5,3,4,4,4,4,5,5,3,5,5,4,4,5,3.33,4.00,4.67,4.33,4.33
+R253,47,Male,"£60k–£79,999",Monthly,"Aware, never purchased",5,5,6,7,4,4,4,4,4,5,4,6,5,4,5,5.33,5.00,4.00,5.00,4.67
+R254,28,Male,"£20k–£39,999",Monthly,"Aware, never purchased",4,2,3,2,2,3,2,2,3,2,2,3,3,3,3,3.00,2.33,2.33,2.33,3.00
+R255,38,Male,Prefer not to say,Less than monthly,Purchased previously,4,4,4,4,4,3,3,3,4,5,4,4,4,5,5,4.00,3.67,3.33,4.33,4.67
+R256,46,Male,"£20k–£39,999",Weekly or more,"Aware, never purchased",5,5,4,5,4,4,5,4,5,5,5,4,3,4,5,4.67,4.33,4.67,4.67,4.00
+R257,21,Male,Under £20k,Weekly or more,"Aware, never purchased",1,2,2,2,2,4,1,1,1,2,3,2,4,5,4,1.67,2.67,1.00,2.33,4.33
+R258,35,Male,Under £20k,Monthly,"Aware, never purchased",3,4,5,5,6,5,5,5,6,4,5,3,7,5,5,4.00,5.33,5.33,4.00,5.67
+R259,22,Female,"£40k–£59,999",Monthly,Purchased previously,4,1,3,5,3,5,3,3,2,3,3,4,4,6,5,2.67,4.33,2.67,3.33,5.00
+R260,23,Female,Prefer not to say,Never,"Aware, never purchased",6,5,4,4,4,4,5,5,5,6,6,5,4,6,6,5.00,4.00,5.00,5.67,5.33
+R261,28,Female,Prefer not to say,Never,"Aware, never purchased",4,3,4,4,3,4,5,5,5,4,4,3,6,5,5,3.67,3.67,5.00,3.67,5.33
+R262,41,Female,"£20k–£39,999",Monthly,Had not heard of it,3,4,3,3,3,2,3,4,3,5,3,4,2,3,3,3.33,2.67,3.33,4.00,2.67
+R263,31,Female,"£40k–£59,999",Weekly or more,Had not heard of it,4,5,4,3,3,4,2,1,2,3,3,3,3,4,3,4.33,3.33,1.67,3.00,3.33
+R264,27,Female,Under £20k,2–3 times a month,"Aware, never purchased",3,4,5,5,5,6,4,5,4,6,4,5,5,6,6,4.00,5.33,4.33,5.00,5.67
+R265,36,Female,"£40k–£59,999",Monthly,Had not heard of it,5,4,5,5,4,4,4,3,5,4,4,5,6,6,5,4.67,4.33,4.00,4.33,5.67
+R266,21,Female,"£40k–£59,999",Weekly or more,Purchased previously,5,6,3,6,4,5,3,4,5,6,5,6,4,5,6,4.67,5.00,4.00,5.67,5.00
+R267,40,Female,"£20k–£39,999",Monthly,Purchased previously,3,3,3,4,3,3,3,3,3,4,3,4,2,2,2,3.00,3.33,3.00,3.67,2.00
+R268,49,Male,"£40k–£59,999",Less than monthly,Had not heard of it,5,4,5,5,4,5,4,4,6,3,3,4,3,3,4,4.67,4.67,4.67,3.33,3.33
+R269,34,Male,£80k+,Monthly,Purchased previously,4,3,5,3,2,3,2,3,1,4,3,3,3,1,2,4.00,2.67,2.00,3.33,2.00
+R270,33,Male,Under £20k,Less than monthly,"Aware, never purchased",5,6,6,7,7,7,6,6,5,6,5,6,4,5,5,5.67,7.00,5.67,5.67,4.67
+R271,39,Male,"£20k–£39,999",Weekly or more,"Aware, never purchased",5,4,5,4,4,4,5,5,4,5,3,3,5,4,5,4.67,4.00,4.67,3.67,4.67
+R272,18,Male,"£20k–£39,999",Monthly,Purchased previously,4,4,4,3,4,4,3,2,2,4,3,2,4,5,4,4.00,3.67,2.33,3.00,4.33
+R273,41,Male,Under £20k,2–3 times a month,"Aware, never purchased",4,5,6,3,5,6,4,4,3,3,4,3,4,4,4,5.00,4.67,3.67,3.33,4.00
+R274,70,Female,Under £20k,Monthly,Had not heard of it,5,5,6,5,6,5,3,3,4,6,5,6,2,2,4,5.33,5.33,3.33,5.67,2.67
+R275,34,Non-binary,"£40k–£59,999",Weekly or more,Had not heard of it,6,6,4,4,4,5,5,6,6,6,5,6,7,5,4,5.33,4.33,5.67,5.67,5.33
+R276,34,Female,Under £20k,2–3 times a month,"Aware, never purchased",6,4,6,5,4,5,5,6,5,3,5,5,4,5,6,5.33,4.67,5.33,4.33,5.00
+R277,44,Male,"£60k–£79,999",Monthly,Purchased previously,3,4,2,5,3,4,2,2,3,3,1,3,5,5,5,3.00,4.00,2.33,2.33,5.00
+R278,55,Male,£80k+,Less than monthly,"Aware, never purchased",4,6,5,6,5,6,6,6,6,5,6,5,4,4,4,5.00,5.67,6.00,5.33,4.00
+R279,47,Female,£80k+,Weekly or more,"Aware, never purchased",2,3,5,3,4,4,3,3,5,4,2,4,2,2,2,3.33,3.67,3.67,3.33,2.00
+R280,18,Male,"£40k–£59,999",Monthly,Had not heard of it,6,6,6,5,5,3,5,4,5,3,3,3,6,6,6,6.00,4.33,4.67,3.00,6.00
+R281,42,Female,"£20k–£39,999",Less than monthly,Purchased previously,6,4,3,5,4,4,3,6,4,4,3,4,3,3,5,4.33,4.33,4.33,3.67,3.67
+R282,66,Female,Under £20k,Weekly or more,"Aware, never purchased",4,4,3,4,4,4,5,6,4,3,3,5,3,6,4,3.67,4.00,5.00,3.67,4.33
+R283,42,Female,"£20k–£39,999",Never,"Aware, never purchased",4,3,5,1,1,3,2,4,2,4,2,3,3,2,3,4.00,1.67,2.67,3.00,2.67
+R284,21,Female,Prefer not to say,Monthly,"Aware, never purchased",4,4,4,5,6,5,3,4,5,6,5,5,7,3,5,4.00,5.33,4.00,5.33,5.00
+R285,38,Female,Prefer not to say,Monthly,Had not heard of it,4,4,3,3,5,4,4,3,3,5,3,4,3,5,5,3.67,4.00,3.33,4.00,4.33
+R286,20,Male,"£20k–£39,999",Monthly,Had not heard of it,4,6,6,3,2,4,2,2,3,4,3,3,2,2,3,5.33,3.00,2.33,3.33,2.33
+R287,50,Male,"£20k–£39,999",Monthly,"Aware, never purchased",5,5,5,4,4,5,5,5,4,4,4,3,4,6,5,5.00,4.33,4.67,3.67,5.00
+R288,24,Female,"£40k–£59,999",Less than monthly,"Aware, never purchased",4,5,5,5,6,7,4,5,4,6,5,5,3,5,4,4.67,6.00,4.33,5.33,4.00
+R289,36,Male,"£20k–£39,999",Less than monthly,"Aware, never purchased",6,5,5,3,4,2,4,5,4,4,5,3,6,5,4,5.33,3.00,4.33,4.00,5.00
+R290,25,Female,Prefer not to say,Never,Purchased previously,4,3,5,5,5,5,2,2,3,3,2,3,4,4,5,4.00,5.00,2.33,2.67,4.33
+R291,28,Female,"£20k–£39,999",Less than monthly,Had not heard of it,2,3,3,4,3,3,4,4,3,2,2,3,3,3,2,2.67,3.33,3.67,2.33,2.67
+R292,53,Male,"£20k–£39,999",Weekly or more,"Aware, never purchased",4,3,1,3,1,2,5,5,5,5,6,6,4,5,4,2.67,2.00,5.00,5.67,4.33
+R293,36,Male,"£20k–£39,999",Monthly,Had not heard of it,4,3,4,4,2,3,3,3,1,2,2,2,2,2,2,3.67,3.00,2.33,2.00,2.00
+R294,28,Female,Under £20k,Monthly,Had not heard of it,4,4,4,3,4,4,3,4,4,2,2,2,2,2,4,4.00,3.67,3.67,2.00,2.67
+R295,21,Female,"£20k–£39,999",Monthly,"Aware, never purchased",2,3,4,3,5,3,3,6,4,4,4,5,3,4,2,3.00,3.67,4.33,4.33,3.00
+R296,18,Male,£80k+,2–3 times a month,Purchased previously,2,1,3,5,3,5,3,3,3,5,3,3,3,2,2,2.00,4.33,3.00,3.67,2.33
+R297,20,Male,Under £20k,Less than monthly,"Aware, never purchased",5,4,3,2,2,3,3,5,4,3,6,4,4,3,2,4.00,2.33,4.00,4.33,3.00
+R298,36,Female,"£40k–£59,999",Less than monthly,Had not heard of it,5,3,5,4,4,5,6,6,5,6,5,6,5,4,4,4.33,4.33,5.67,5.67,4.33
+R299,47,Female,"£20k–£39,999",2–3 times a month,"Aware, never purchased",3,3,3,4,5,5,7,5,6,7,6,7,5,5,6,3.00,4.67,6.00,6.67,5.33
+R300,28,Female,Under £20k,Monthly,"Aware, never purchased",3,2,3,3,2,3,3,3,5,4,2,2,4,3,2,2.67,2.67,3.67,2.67,3.00
