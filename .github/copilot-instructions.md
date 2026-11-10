@@ -17,6 +17,19 @@ A single-user hub for analysing survey data. Projects hold conceptual frameworks
 - Use `JSON` columns only for method-specific settings. Keep common searchable fields as regular columns.
 - Record the lineage of results: run -> dataset, framework version, and plan.
 
+## Current state
+- `app.py` is a Streamlit prototype. It takes a survey CSV and an optional codebook CSV, and shows a variable profile and a data preview. Nothing is saved to disk or a database yet.
+- Example files in `data/examples/`: `marketing_purchase_intention_survey.csv` (raw items only, no composite scores) and `marketing_purchase_intention_codebook.csv`.
+
+## Codebook format
+- One row per variable, UTF-8 CSV, with columns: `variable_name, label, data_type, measurement_level, value_labels, missing_codes, construct, reverse_coded, role, derived_from`.
+- `role` is `id`, `demographic`, `item` or `derived`. Items use `code=label` pairs in `value_labels`. Demographics list allowed categories. Use `;` as the separator inside cells, and quote cells that contain commas.
+- `variable_name` must match the data header exactly.
+- Composite scores (`role = derived`) are not in the raw data. The app computes each as the mean of the items in `derived_from`, in memory only, and offers a CSV download. Do not overwrite a derived column that already exists in the upload.
+- The app validates that data and codebook variables match, and that observed values are allowed by the codebook.
+- Items marked `reverse_coded = TRUE` are flipped (min + max - value, using the codes in `value_labels`) before computing derived means and Cronbach's alpha.
+- A "Scale reliability" table reports Cronbach's alpha per `construct` (complete cases only) with alpha-if-item-dropped.
+
 ## Working style
 - Keep changes small and focused. Update the data dictionary when the schema changes.
 - Do not commit secrets. Keep API keys in `.env` (loaded via python-dotenv), which is git-ignored.
