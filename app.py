@@ -1,4 +1,5 @@
 import pandas as pd
+import plotly.express as px
 import streamlit as st
 
 
@@ -192,6 +193,100 @@ if codebook is not None:
         st.subheader("Scale reliability")
         st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
         st.caption("Alpha uses complete cases only and flips items marked reverse_coded in the codebook.")
+
+if codebook is not None:
+    info = codebook.drop_duplicates("variable_name").set_index("variable_name")
+    score_names = [n for n in info.index[info["role"] == "derived"] if n in data.columns]
+    category_names = [
+        n for n in info.index[info["role"] == "demographic"]
+        if n in data.columns and pd.notna(info.loc[n, "value_labels"])
+    ]
+
+    def category_order(name):
+        return info.loc[name, "value_labels"].split(";")
+
+    def score_title(name):
+        return name.replace("_", " ")
+
+    st.header("Descriptives")
+    tab_scores, tab_groups, tab_items, tab_sample = st.tabs(
+        ["Construct scores", "Group comparison", "Item responses", "Sample profile"]
+    )
+
+    with tab_scores:
+        if not score_names:
+            st.info("No derived score variables are available.")
+        else:
+            summary = data[score_names].describe().T[["count", "mean", "std", "min", "50%", "max"]]
+            summary.columns = ["N", "Mean", "SD", "Min", "Median", "Max"]
+            summary["N"] = summary["N"].astype(int)
+            st.dataframe(summary.round(2).rename_axis("Score").reset_index(), hide_index=True, use_container_width=True)
+
+            long_scores = data[score_names].melt(var_name="Score", value_name="Value")
+            fig = px.histogram(long_scores, x="Value", facet_col="Score", facet_col_wrap=3, nbins=24)
+            fig.update_xaxes(range=[1, 7])
+            fig.update_layout(showlegend=False, height=420)
+            st.plotly_chart(fig, use_container_width=True)
+
+    with tab_groups:
+        if not score_names or not category_names:
+            st.info("Group comparison needs derived scores and categorical demographics in the codebook.")
+        else:
+            left, right = st.columns(2)
+            score = left.selectbox("Score", score_names, format_func=score_title)
+            group = right.selectbox("Group by", category_names, format_func=score_title)
+            order = [c for c in category_order(group) if c in set(data[group].dropna())]
+            grouped = (
+                data.groupby(group)[score].agg(N="count", Mean="mean", SD="std").reindex(order).round(2)
+            )
+            st.dataframe(grouped.rename_axis(group).reset_index(), hide_index=True, use_container_width=True)
+            fig = px.box(data, x=group, y=score, category_orders={group: order}, points="all")
+            fig.update_layout(height=450)
+            st.plotly_chart(fig, use_container_width=True)
+            small = grouped.index[grouped["N"] < 30].tolist()
+            if small:
+                st.caption(f"Groups with fewer than 30 respondents should be read cautiously: {', '.join(small)}.")
+
+    with tab_items:
+        constructs = [
+            c for c in info["construct"].dropna().unique()
+            if ((info["construct"] == c) & (info["role"] == "item")).any()
+        ]
+        if not constructs:
+            st.info("No construct items are defined in the codebook.")
+        else:
+            construct = st.selectbox("Construct", constructs, format_func=score_title)
+            names = [n for n in info.index[(info["construct"] == construct) & (info["role"] == "item")] if n in data.columns]
+            codes = sorted(pd.unique(data[names].to_numpy().ravel()[~pd.isna(data[names].to_numpy().ravel())]))
+            shares = pd.DataFrame(
+                {n: data[n].value_counts(normalize=True).reindex(codes, fill_value=0) * 100 for n in names}
+            ).T
+            shares.columns = [str(c) for c in shares.columns]
+            fig = px.bar(
+                shares, orientation="h", barmode="stack",
+                labels={"value": "% of respondents", "index": "Item", "variable": "Response"},
+                color_discrete_sequence=px.colors.diverging.RdYlBu,
+            )
+            fig.update_layout(height=120 + 70 * len(names), yaxis={"autorange": "reversed"})
+            st.plotly_chart(fig, use_container_width=True)
+            st.caption("; ".join(f"{n}: {info.loc[n, 'label'].split(';')[0]}" for n in names))
+
+    with tab_sample:
+        if "Age" in data.columns and pd.api.types.is_numeric_dtype(data["Age"]):
+            age = data["Age"].describe()
+            st.write(
+                f"**Age:** mean {age['mean']:.1f}, SD {age['std']:.1f}, median {age['50%']:.0f}, "
+                f"range {age['min']:.0f}–{age['max']:.0f}"
+            )
+        if category_names:
+            variable = st.selectbox("Variable", category_names, format_func=score_title)
+            order = [c for c in category_order(variable)]
+            counts = data[variable].value_counts().reindex(order, fill_value=0)
+            table = pd.DataFrame({variable: counts.index, "N": counts.to_numpy(), "%": (counts / counts.sum() * 100).round(1).to_numpy()})
+            st.dataframe(table, hide_index=True, use_container_width=True)
+            fig = px.bar(table, x=variable, y="N", category_orders={variable: order})
+            fig.update_layout(height=350)
+            st.plotly_chart(fig, use_container_width=True)
 
 if computed:
     base_name = uploaded_file.name.rsplit(".", 1)[0]

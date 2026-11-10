@@ -29,6 +29,7 @@ A single-user hub for analysing survey data. Projects hold conceptual frameworks
 - The app validates that data and codebook variables match, and that observed values are allowed by the codebook.
 - Items marked `reverse_coded = TRUE` are flipped (min + max - value, using the codes in `value_labels`) before computing derived means and Cronbach's alpha.
 - A "Scale reliability" table reports Cronbach's alpha per `construct` (complete cases only) with alpha-if-item-dropped.
+- A "Descriptives" section (plotly charts in tabs) covers construct score summaries and histograms, group comparison by categorical demographics (those with `value_labels`, ordered as in the codebook), item response distributions per construct, and a sample profile.
 
 ## Working style
 - Keep changes small and focused. Update the data dictionary when the schema changes.
