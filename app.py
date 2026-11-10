@@ -48,17 +48,8 @@ summary_columns[0].metric("Responses", f"{row_count:,}")
 summary_columns[1].metric("Variables", f"{column_count:,}")
 summary_columns[2].metric("Missing cells", f"{missing_count:,}")
 
-profile = pd.DataFrame(
-    {
-        "Variable": data.columns.astype(str),
-        "Detected type": data.dtypes.astype(str).to_numpy(),
-        "Missing": data.isna().sum().to_numpy(),
-        "Distinct values": data.nunique(dropna=True).to_numpy(),
-    }
-)
-
-st.subheader("Variable profile")
-st.dataframe(profile, hide_index=True, use_container_width=True)
+codebook = None
+computed = set()
 
 if codebook_file is not None:
     try:
@@ -78,8 +69,21 @@ if codebook_file is not None:
     problems = []
     for name in sorted(data_columns - coded):
         problems.append(f"'{name}' is in the data but not the codebook.")
-    for name in sorted(coded - data_columns):
+    derived = codebook[codebook["role"] == "derived"]
+    for name in sorted(coded - data_columns - set(derived["variable_name"])):
         problems.append(f"'{name}' is in the codebook but not the data.")
+
+    # Derived scores absent from the upload are computed as the mean of their source items.
+    for _, row in derived.iterrows():
+        name = row["variable_name"]
+        if name in data_columns:
+            continue
+        sources = [s.strip() for s in str(row["derived_from"]).split(";") if s.strip()]
+        if sources and all(s in data_columns for s in sources):
+            data[name] = data[sources].mean(axis=1).round(2)
+            computed.add(name)
+        else:
+            problems.append(f"'{name}' cannot be computed: its source items are missing from the data.")
     for name in codebook.loc[codebook["variable_name"].duplicated(), "variable_name"]:
         problems.append(f"'{name}' appears more than once in the codebook.")
 
@@ -106,10 +110,44 @@ if codebook_file is not None:
             st.write(f"- {problem}")
     else:
         st.success("Codebook matches the data.")
+    if computed:
+        st.info(f"Computed from the codebook: {', '.join(sorted(computed))}")
 
     st.dataframe(codebook, hide_index=True, use_container_width=True)
 
+profile = pd.DataFrame(
+    {
+        "Variable": data.columns.astype(str),
+        "Detected type": data.dtypes.astype(str).to_numpy(),
+        "Missing": data.isna().sum().to_numpy(),
+        "Distinct values": data.nunique(dropna=True).to_numpy(),
+    }
+)
+
+if codebook is not None:
+    info = codebook.drop_duplicates("variable_name").set_index("variable_name")
+    for column, title in [
+        ("label", "Label"),
+        ("role", "Role"),
+        ("construct", "Construct"),
+        ("measurement_level", "Measurement level"),
+    ]:
+        profile[title] = profile["Variable"].map(info[column])
+    profile["Source"] = profile["Variable"].map(lambda v: "Computed" if v in computed else "Uploaded")
+
+st.subheader("Variable profile")
+st.dataframe(profile, hide_index=True, use_container_width=True)
+
 st.subheader("Data preview")
 st.dataframe(data.head(25), hide_index=True, use_container_width=True)
+
+if computed:
+    base_name = uploaded_file.name.rsplit(".", 1)[0]
+    st.download_button(
+        "Download data with computed scores (CSV)",
+        data=data.to_csv(index=False).encode("utf-8-sig"),
+        file_name=f"{base_name}_with_scores.csv",
+        mime="text/csv",
+    )
 
 st.caption("This prototype keeps the uploaded file in memory for preview; it does not save it to disk or a database.")
