@@ -13,6 +13,18 @@ uploaded_file = st.file_uploader(
     help="The current prototype accepts CSV files.",
 )
 
+codebook_file = st.file_uploader(
+    "Choose a codebook CSV (optional)",
+    type=["csv"],
+    help="One row per variable. Required columns: variable_name, label, data_type, "
+    "measurement_level, value_labels, missing_codes, construct, reverse_coded, role, derived_from.",
+)
+
+CODEBOOK_COLUMNS = [
+    "variable_name", "label", "data_type", "measurement_level", "value_labels",
+    "missing_codes", "construct", "reverse_coded", "role", "derived_from",
+]
+
 if uploaded_file is None:
     st.info("Upload a CSV to see its variables, missing values, and a data preview.")
     st.stop()
@@ -47,6 +59,55 @@ profile = pd.DataFrame(
 
 st.subheader("Variable profile")
 st.dataframe(profile, hide_index=True, use_container_width=True)
+
+if codebook_file is not None:
+    try:
+        codebook = pd.read_csv(codebook_file, encoding="utf-8-sig", dtype=str)
+    except (UnicodeDecodeError, pd.errors.EmptyDataError, pd.errors.ParserError) as error:
+        st.error(f"Could not read the codebook: {error}")
+        st.stop()
+
+    st.subheader("Codebook check")
+    missing_headers = [c for c in CODEBOOK_COLUMNS if c not in codebook.columns]
+    if missing_headers:
+        st.error(f"Codebook is missing columns: {', '.join(missing_headers)}")
+        st.stop()
+
+    data_columns = set(data.columns.astype(str))
+    coded = set(codebook["variable_name"])
+    problems = []
+    for name in sorted(data_columns - coded):
+        problems.append(f"'{name}' is in the data but not the codebook.")
+    for name in sorted(coded - data_columns):
+        problems.append(f"'{name}' is in the codebook but not the data.")
+    for name in codebook.loc[codebook["variable_name"].duplicated(), "variable_name"]:
+        problems.append(f"'{name}' appears more than once in the codebook.")
+
+    for _, row in codebook.iterrows():
+        name = row["variable_name"]
+        if name not in data_columns or pd.isna(row["value_labels"]):
+            continue
+        labels = row["value_labels"].split(";")
+        if row["role"] == "item":
+            allowed = {label.split("=", 1)[0] for label in labels}
+            observed = set(data[name].dropna().astype(str))
+        elif row["role"] == "demographic":
+            allowed = set(labels)
+            observed = set(data[name].dropna().astype(str))
+        else:
+            continue
+        unexpected = sorted(observed - allowed)
+        if unexpected:
+            problems.append(f"'{name}' has values not in the codebook: {', '.join(unexpected[:5])}")
+
+    if problems:
+        st.warning(f"{len(problems)} issue(s) found.")
+        for problem in problems:
+            st.write(f"- {problem}")
+    else:
+        st.success("Codebook matches the data.")
+
+    st.dataframe(codebook, hide_index=True, use_container_width=True)
 
 st.subheader("Data preview")
 st.dataframe(data.head(25), hide_index=True, use_container_width=True)
